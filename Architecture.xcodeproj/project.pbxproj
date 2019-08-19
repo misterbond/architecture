@@ -10,6 +10,8 @@
 		566A33C9230AF94900A4A685 /* Architecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 566A33BF230AF94900A4A685 /* Architecture.framework */; };
 		566A33CE230AF94900A4A685 /* ArchitectureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566A33CD230AF94900A4A685 /* ArchitectureTests.swift */; };
 		566A33D0230AF94900A4A685 /* Architecture.h in Headers */ = {isa = PBXBuildFile; fileRef = 566A33C2230AF94900A4A685 /* Architecture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		566A33DC230B01CD00A4A685 /* TabBarScenario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566A33DA230B01CD00A4A685 /* TabBarScenario.swift */; };
+		566A33DD230B01CD00A4A685 /* Scenario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566A33DB230B01CD00A4A685 /* Scenario.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		566A33C8230AF94900A4A685 /* ArchitectureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchitectureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		566A33CD230AF94900A4A685 /* ArchitectureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchitectureTests.swift; sourceTree = "<group>"; };
 		566A33CF230AF94900A4A685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		566A33DA230B01CD00A4A685 /* TabBarScenario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarScenario.swift; sourceTree = "<group>"; };
+		566A33DB230B01CD00A4A685 /* Scenario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scenario.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				566A33C2230AF94900A4A685 /* Architecture.h */,
+				566A33D9230B01CD00A4A685 /* Scenario */,
 				566A33C3230AF94900A4A685 /* Info.plist */,
 			);
 			path = Architecture;
@@ -84,6 +89,15 @@
 				566A33CF230AF94900A4A685 /* Info.plist */,
 			);
 			path = ArchitectureTests;
+			sourceTree = "<group>";
+		};
+		566A33D9230B01CD00A4A685 /* Scenario */ = {
+			isa = PBXGroup;
+			children = (
+				566A33DA230B01CD00A4A685 /* TabBarScenario.swift */,
+				566A33DB230B01CD00A4A685 /* Scenario.swift */,
+			);
+			path = Scenario;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +208,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				566A33DC230B01CD00A4A685 /* TabBarScenario.swift in Sources */,
+				566A33DD230B01CD00A4A685 /* Scenario.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +409,7 @@
 		566A33D7230AF94900A4A685 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VA44R55337;
 				INFOPLIST_FILE = ArchitectureTests/Info.plist;
@@ -411,6 +428,7 @@
 		566A33D8230AF94900A4A685 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VA44R55337;
 				INFOPLIST_FILE = ArchitectureTests/Info.plist;
