@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
 # 1
 s.platform = :ios
 s.ios.deployment_target = '10.0'
-s.name = "Standard Architecture"
+s.name = "StandardArchitecture"
 s.summary = "A standard iOS architecture"
 s.requires_arc = true
 
