@@ -35,10 +35,11 @@ s.source = { :git => "https://github.com/misterbond/architecture.git",
 s.framework = "Foundation"
 
 # 8
-s.source_files = "Architecture/**/*.{swift}"
+#s.source_files = "Architecture/**/*.{swift}"
+s.source_files = "Architecture/*.{swift}"
 
 # 9
-s.resources = "Architecture/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+#s.resources = "Architecture/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 # 10
 s.swift_version = "5.0"
