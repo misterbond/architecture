@@ -41,6 +41,6 @@ s.source_files = "Architecture/**/*.{swift}"
 s.resources = "Architecture/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 # 10
-s.swift_version = "4.2"
+s.swift_version = "5.0"
 
 end
