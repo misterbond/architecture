@@ -36,8 +36,8 @@ s.framework = "Foundation"
 
 # 8
 #s.source_files = "Architecture/**/*.{swift}"
-s.source_files = "Architecture/*.{swift}"
-
+#s.source_files = "Architecture/*.{swift}"
+s.source_files = "Architecture/*"
 # 9
 #s.resources = "Architecture/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
