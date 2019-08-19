@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 // Interface for scenario
 protocol ScenarioInterface {

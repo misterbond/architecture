@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		566A33C9230AF94900A4A685 /* Architecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 566A33BF230AF94900A4A685 /* Architecture.framework */; };
 		566A33CE230AF94900A4A685 /* ArchitectureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566A33CD230AF94900A4A685 /* ArchitectureTests.swift */; };
-		566A33D0230AF94900A4A685 /* Architecture.h in Headers */ = {isa = PBXBuildFile; fileRef = 566A33C2230AF94900A4A685 /* Architecture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		566A33DC230B01CD00A4A685 /* TabBarScenario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566A33DA230B01CD00A4A685 /* TabBarScenario.swift */; };
 		566A33DD230B01CD00A4A685 /* Scenario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566A33DB230B01CD00A4A685 /* Scenario.swift */; };
 /* End PBXBuildFile section */
@@ -26,7 +25,6 @@
 
 /* Begin PBXFileReference section */
 		566A33BF230AF94900A4A685 /* Architecture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Architecture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		566A33C2230AF94900A4A685 /* Architecture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Architecture.h; sourceTree = "<group>"; };
 		566A33C3230AF94900A4A685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		566A33C8230AF94900A4A685 /* ArchitectureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchitectureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		566A33CD230AF94900A4A685 /* ArchitectureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchitectureTests.swift; sourceTree = "<group>"; };
@@ -75,7 +73,6 @@
 		566A33C1230AF94900A4A685 /* Architecture */ = {
 			isa = PBXGroup;
 			children = (
-				566A33C2230AF94900A4A685 /* Architecture.h */,
 				566A33D9230B01CD00A4A685 /* Scenario */,
 				566A33C3230AF94900A4A685 /* Info.plist */,
 			);
@@ -107,7 +104,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				566A33D0230AF94900A4A685 /* Architecture.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

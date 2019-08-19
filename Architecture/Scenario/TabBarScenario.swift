@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 protocol TabBarScenarioInterface: ScenarioInterface {
     // The navigation controller object for the tab view controller
